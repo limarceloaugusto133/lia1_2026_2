@@ -2,9 +2,9 @@
 
 Um modelo de Inteligência Artificial (CNN em PyTorch) que detecta defeitos em peças na linha de produção. A demonstração roda direto no navegador, pela interface do lovable e é possível acessar rodando a secção 16 no colab!
 
-<img src="Entregas - Marcelo Augusto/Projeto 3/Imagens da Inferência/Peça_com_defeito.png" width="600" alt="Demonstração do Inspetor para peça com defeito">
+<img src="Imagens%20da%20Inferencia/Peca_com_defeito.png" width="600" alt="Demonstração do Inspetor para peça com defeito">
 
-<img src="Entregas - Marcelo Augusto/Projeto 3/Imagens da Inferência/Peça_sem_defeito.png" width="600" alt="Demonstração do Inspetor para peça sem defeito">
+<img src="Imagens%20da%20Inferencia/Peca_sem_defeito.png" width="600" alt="Demonstração do Inspetor para peça sem defeito">
 
 ## 🎯 Objetivo
 Automatizar a inspeção visual de peças fundidas (impulsores de bomba). O modelo classifica as imagens separando as peças defeituosas das aprovadas, com o foco em **minimizar o erro mais caro: deixar passar uma peça com defeito**.
@@ -13,7 +13,7 @@ Automatizar a inspeção visual de peças fundidas (impulsores de bomba). O mode
 Você pode testar a IA direto pelo navegador. A inferência é feita baixando os arquivos das pastas "Modelo Onnx"e "Arquivo Lovable" e inserindo eles nas células 16.1 e 16.4 respectivamente.
 
 ## ▶️ Como treinar o modelo e acessar sua inferência(Notebook)
-[![Open In Colab](https://github.com/limarceloaugusto133/lia1_2026_2/blob/main/Visualizar_pe%C3%A7as_com_defeito.ipynb)]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/limarceloaugusto133/lia1_2026_2/blob/main/Visualizar_pe%C3%A7as_com_defeito.ipynb)
 
 Abra o arquivo `Visualizar_peças_com_defeito.ipynb` no Google Colab e rode as células em ordem. Ele faz todo o trabalho pesado:
 1. Baixa o dataset do Kaggle automaticamente.
