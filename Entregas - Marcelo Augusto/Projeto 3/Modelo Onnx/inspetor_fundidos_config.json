@@ -1,0 +1,35 @@
+{
+  "nome_projeto": "Inspetor Visual de Defeitos em Pecas Fundidas",
+  "classes": {
+    "0": "ok",
+    "1": "defeito"
+  },
+  "classe_positiva": "defeito",
+  "img_size": 128,
+  "canais": 1,
+  "normalizacao": {
+    "media": 0.5638516344742729,
+    "desvio": 0.23429926178000057,
+    "origem": "calculada apenas no conjunto de treino"
+  },
+  "limiar_decisao": 0.06,
+  "limiar_criterio": "menor custo entre os limiares com recall >= 0.98",
+  "seed": 42,
+  "arquitetura": "InspetorCNN (stem 5x5 + 5 blocos residuais + pooling global)",
+  "melhor_epoca": 19,
+  "metricas_teste": {
+    "auc_roc": 0.9994183465736021,
+    "recall_defeito_limiar_padrao": 0.9950980392156863,
+    "recall_defeito_limiar_escolhido": 0.9967320261437909,
+    "precisao_defeito_limiar_escolhido": 0.993485342019544
+  },
+  "versoes": {
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "torch": "2.11.0+cu128",
+    "onnx": "1.23.0",
+    "onnxruntime": "1.30.0"
+  }
+}
